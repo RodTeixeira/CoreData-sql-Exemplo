@@ -9,7 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property(strong) NSManagedObjectModel *device;
 
+@property (strong, nonatomic) IBOutlet UIButton *btnSalvar;
+
+@property (weak, nonatomic) IBOutlet UIButton *btnFind;
+@property (strong, nonatomic) IBOutlet UITextField *txtNome;
 
 @end
 
